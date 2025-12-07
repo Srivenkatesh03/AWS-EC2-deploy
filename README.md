@@ -83,20 +83,18 @@ Pull the latest image:
 ```bash
 docker pull srivenkatesh03/my-portfolio:latest
 ```
+---
+
 🔐 GitHub Secrets Used
-Secret Name	        Description
+|Secret Name	    |    Description|
+|-------------------|------------|
+|DOCKERHUB_USERNAME  |	DockerHub Account
+|DOCKERHUB_TOKEN     |   DockerHub Access Token
+|EC2_HOST	    |   EC2 Public DNS
+|EC2_USER	    |    ubuntu
+|EC2_SSH_PRIVATE_KEY |   Private key for SSH
 
-DOCKERHUB_USERNAME	        DockerHub Account
-
-DOCKERHUB_TOKEN        	DockerHub Access Token
-
-EC2_HOST	        EC2 Public DNS
-
-EC2_USER	        ubuntu
-
-EC2_SSH_PRIVATE_KEY	        Private key for SSH
-
-
+---
 
 
 <img width="1888" height="895" alt="image" src="https://github.com/user-attachments/assets/30427a74-1fdf-41c9-ad3e-6244f5333271" />
